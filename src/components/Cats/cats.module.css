@@ -1,0 +1,20 @@
+.cats_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.cat_item {
+    box-sizing: border-box;
+    width: calc(20% - .5rem);
+    margin: .25rem;
+    min-width: 7rem;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.04) 15px 17px 15px;
+}
+
+.cat_item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

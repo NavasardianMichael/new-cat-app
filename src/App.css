@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+}
+
+.app-wrapper {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  position: relative;
+}
